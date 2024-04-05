@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/output.css">
+
+    <title>Mundo Doce</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="w-full h-[420px] bg-purple-700  bg-cover bg-centers">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+           <img 
+           src="./assets/marca.png"
+           alt="Logo DevBolo"
+           class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200 "
+           /> 
+           <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Mundo Doce</h1>
+
+           <span class="text-white font-medium">Rua do Norte Nº96, Bairro Nordeste</span>
+           <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+            <span class="text-white font-medium">Seg á dom - 9:00 às 18:00</span>
+           </div>
+        </div>
+    </header>
+    <!--Fim do header-->
+   
+    <!--titulo menu-->
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso menu</h2>
+      <!--fim titulo menu-->
+     
+      <!--CATÁLOGO-->
+<div  id="menu">
+ <main class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-7 mx-auto max-w-7xl px-2 mb-16">
+    <!--Item produto-->
+    <div class="flex gap-2">
+      <img
+      src="./assets/bolo2.jpg"
+      alt="Pri Bolo"
+      class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+      />
+
+    <div>
+        <p class="font-bold">Bolo Aniversário</p>
+        <p class="text-sm ">Bolo Aniversário: Delicado bolo de baunilha com recheio cremoso de chocolate e cobertura de ganache luxuosa.</p>
+        <div class="flex items-center gap-2 justify-between">
+            <div class="w-20">
+            <p class="font-bold text-lg">R$110.90</p>
+            <button 
+            class="bg-green-500 px-5 rounded add-to-cart-btn relative "
+            data-name="Bolo Aniversario"
+            data-price="110.90"   
+            >
+               <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+        </div>
+        </div>                                               
+    </div>
+    </div>
+ <!--fimItem produto-->
+
+     <!--Item produto-->
+     <div class="flex gap-2">
+        <img
+        src="./assets/bolo4.jpg"
+        alt="Sec Bolo"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+        />
+  
+      <div>
+          <p class="font-bold">Bolo Casamento</p>
+          <p class="text-sm ">Bolo Casamento: Elegante bolo de amêndoa com camadas de creme de framboesa e cobertura de glacê real sofisticado.</p>
+          <div class="flex items-center gap-2 justify-between">
+              <div class="w-20">
+            <p class="font-bold text-lg">R$138.90</p>
+              <button 
+              class="bg-green-500 px-5 rounded add-to-cart-btn"
+              data-name="Bolo Casamento"
+              data-price="138.90"   
+              >
+                 <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>                                               
+      </div>
+      </div>
+   <!--fimItem produto-->
+   
+     <!--Item produto-->
+     <div class="flex gap-2">
+        <img
+        src="./assets/ovo.jpg"
+        alt="ovo"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+        />
+  
+      <div>
+          <p class="font-bold">Ovo de Colher</p>
+          <p class="text-sm ">Ovo de Colher: Rico chocolate belga recheado com creme de avelã e decorado com pedaços crocantes de amêndoas caramelizadas.</p>
+          <div class="flex items-center gap-2 justify-between">
+            <div class="w-20">
+            <p class="font-bold text-lg">R$100.90</p>
+              <button 
+              class="bg-green-500 px-5 rounded add-to-cart-btn"
+              data-name="ovo de colher"
+              data-price="100.90"   
+              >
+                 <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div> 
+          </div>                                               
+      </div>
+      </div>
+   <!--fimItem produto-->
+        <!--Item produto-->
+        <div class="flex gap-2">
+            <img
+            src="./assets/brownie.jpg"
+            alt="brownie"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+            />
+      
+          <div>
+              <p class="font-bold">Brownie</p>
+              <p class="text-sm ">Brownie: Intenso brownie de chocolate belga com pedaços generosos de nozes pecan e uma finalização indulgente de ganache de caramelo.</p>
+              <div class="flex items-center gap-2 justify-between">
+                 <div class="w-20">
+                <p class="font-bold text-lg">R$10.90</p>
+                  <button 
+                  class="bg-green-500 px-5 rounded add-to-cart-btn"
+                  data-name="brownie"
+                  data-price="10.90"   
+                  >
+                     <i class="fa fa-cart-plus text-lg text-white"></i>
+                  </button>
+                </div>
+              </div>                                               
+          </div>
+          </div>
+       <!--fimItem produto-->
+
+       <!--MODAL CART-->
+       <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"  >
+
+         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+          <h2>Meu carrinho</h2>
+        
+        
+          <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+          <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+          <p class="font-bold">Endereço de entrega:</p>
+
+          <input type="text"
+          placeholder="Digite seu endereço completo..."
+          id="address"
+          class="w-full border-2 p-1 rounded my-1"
+          >
+          <p class="text-red-500 hidden " id="address-warn">Digite seu endereço completo!</p>
+          
+          <div class="flex items-center justify-between mt-5">
+            <button id="close-modal-btn">Fechar</button>
+            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido
+    
+            </button>
+          </div>
+
+         </div>
+       </div>
+       <!--FIM MODAL CART-->
+
+
+<!--Botão cart footer-->
+<footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+  <button 
+  class="flex items-center gap-2 text-white font-bold"
+  id="cart-btn">
+    <span id="cart-count">0</span>
+    Veja meu carrinho
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+  </button>
+</footer>
+<!--Fim botão cart footer-->
+
+
+</main>
+</div>
+      <!--FIM CATÁLOGO-->
+</body>
+</html>
